@@ -58,6 +58,8 @@ class Robot():
       self.__power = False
       self.__speed = 0
 
+    #boot the robot
+
     def boot(self):
       if self.__power == False:
         self.__power = True
@@ -65,6 +67,8 @@ class Robot():
         print("ON")
       pass
 	
+    #shutdown the robot
+
     def shutdown(self):
       if self.__power == True:
         self.__power = False
@@ -72,12 +76,16 @@ class Robot():
         print("OFF")
       pass
 	
+    #charge the robot (10 sec for an empty battery)
+
     def charge(self):
       for i in range(self.__battery_level,100):
         self.__battery_level = self.__battery_level + 1
         print("charge de la batterie : ", self.__battery_level,"%")
         time.sleep(0.1) 
       return self.__battery_level
+
+    #change the speed value to 10
 
     def move(self):
       if self.__power == True:
@@ -86,6 +94,8 @@ class Robot():
       else:
         print(r1.__name, "is off")
     
+    #change the speed value to 0
+
     def stop(self):
       if self.__power == True:
         self.__speed = 0
@@ -93,15 +103,20 @@ class Robot():
       else:
         print(r1.__name, "is off")
     
+    #Display the status
+
     def check(self):
       print("""
-system state display
+system status display
 --------------------
 """)
       print("name :", self.__name)
       print("battery :", self.__battery_level)
       print("power :", self.__power)
       print("speed :", self.__speed)
+
+
+#You can use the different method in the main part
 
 if __name__ == '__main__':
   r1 = Robot()
