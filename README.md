@@ -34,3 +34,16 @@ Exigences
     Mon robot doit pouvoir me donner sa vitesse de déplacement
     Mon robot doit pouvoir arrêter son déplacement sur commande
     Mon robot doit pouvoir me fournir un résumé de son état global
+
+
+Exoooooo 2
+
+Une fois terminé, commitez votre code sur Github
+
+    Un Cyborg est un mélange d'humain et de robot
+    Un humain doit posséder un sexe (H / F)
+    Un humain doit pouvoir manger un ou plusieurs aliments
+    Un humain doit pouvoir digérer ce qu'il a mangé pas très important, faire en dernier si vous avez le temps
+    Réutiliser la class Robot faite dans l'exo 1. Sans copier/coller dans le fichier please ;)
+    Bonus : ajouter une méthode fun au Cyborg
+

@@ -130,6 +130,3 @@ if __name__ == '__main__':
   r1.stop()
   r1.shutdown()
   r1.check()
-  
-  
-
