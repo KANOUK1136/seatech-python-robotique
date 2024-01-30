@@ -100,23 +100,23 @@ class UGV(Unmanned, Ground_Vehicule):
         self.Start()
         print("Mission done")
 
-
-print("""
-    UGV
-      """)
-ugv = UGV()
-ugv.do_mission()
-
-print("""
-    UAV
-      """)
-uav = UAV()
-uav.do_mission()
-
-print("""
-    UUV
-      """)
-uuv = UUV()
-uuv.do_mission()
+if __name__ == '__main__':
+    print("""
+        UGV
+          """)
+    ugv = UGV()
+    ugv.do_mission()
+    
+    print("""
+        UAV
+          """)
+    uav = UAV()
+    uav.do_mission()
+    
+    print("""
+        UUV
+          """)
+    uuv = UUV()
+    uuv.do_mission()
 
     
