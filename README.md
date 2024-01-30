@@ -1,28 +1,8 @@
 # seatech-python-robotique
 
-Bonjour
+# EXO 1
 
-`salut je suis du code`
-
-
-## Sous titre
-
-### Sous sous titre
-
----
-Trait
-
----
-
-```
-je 
-sui du code
-sur plusieurs lignes
-```
-
-test
-EXO 1
-Exigences
+## Exigences
 
     Lorsque je crée mon robot, je veux pouvoir lui attribuer un nom
     Mon robot doit pouvoir s'allumer
@@ -36,7 +16,9 @@ Exigences
     Mon robot doit pouvoir me fournir un résumé de son état global
 
 
-Exoooooo 2
+# Exoooooo 2
+
+## Exigences
 
 Une fois terminé, commitez votre code sur Github
 
@@ -47,3 +29,19 @@ Une fois terminé, commitez votre code sur Github
     Réutiliser la class Robot faite dans l'exo 1. Sans copier/coller dans le fichier please ;)
     Bonus : ajouter une méthode fun au Cyborg
 
+# EXO 3
+
+## Exigences
+```
+En tant que client, je veux pouvoir jouer avec trois types de Véhicules différents : UUV, UAV, UGV
+Seul les Véhicules finaux doivent être utilisables
+Un Véhicules Unmanned doit exécuter une mission
+Mettre en avant un principe de classe abstraite
+Mettre en avant un principe de polymorphisme
+Mettre en avant un principe d'héritage multiple
+Pas d'algorithmes complexes, juste des print ;)
+```
+
+### Aide
+
+Sortez un bon vieux crayon pour schématiser vos dépendances d'héritages
