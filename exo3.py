@@ -101,21 +101,15 @@ class UGV(Unmanned, Ground_Vehicule):
         print("Mission done")
 
 if __name__ == '__main__':
-    print("""
-        UGV
-          """)
+    print("""\nUGV\n""")
     ugv = UGV()
     ugv.do_mission()
-    
-    print("""
-        UAV
-          """)
+
+    print("""\nUAV\n""")
     uav = UAV()
     uav.do_mission()
-    
-    print("""
-        UUV
-          """)
+
+    print("""\nUUV\n""")
     uuv = UUV()
     uuv.do_mission()
 
